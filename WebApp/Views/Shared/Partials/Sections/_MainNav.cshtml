@@ -1,10 +1,12 @@
 ﻿﻿<aside>
     <a href="@Url.Content("~/")">
-        <img src="~/images/Alpha_icon_Lightmode.svg" alt="Alpha Portal Logotype">
+        <img src="~/images/Alpha_icon_Lightmode.svg" alt="Alpha Logo">
     </a>
 
-    <nav>
-        <a asp-action="index" asp-controller="projects">Projects</a>
+    <nav class="nav-links">
+        <a asp-action="index" asp-controller="projects" class="nav-link"><i class="bi bi-briefcase-fill"></i> Projects</a>
+
+        <a asp-action="index" asp-controller="projects" class="nav-link active"><i class="bi bi-people-fill"></i> Team Members</a>
     </nav>
 </aside>
 
